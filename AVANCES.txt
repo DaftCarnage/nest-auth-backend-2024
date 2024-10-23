@@ -1,0 +1,32 @@
+//Implementaremos la libreria de Mongo para enlazarlo con esta bd
+
+//Instalamos npm i @nestjs/config
+
+//Instalamos npm i class-validator class-transformer
+
+//Instalamos un encriptador para las contraseñas npm i --save-dev bcryptjs
+
+//Instalamos el generador de JWT npm install --save @nestjs/jwt
+
+
+
+//COMO EJECUTAR EL PROYECTO
+
+docker compose up -d 
+npm run start:dev
+
+
+
+
+
+//DTO
+//Es como un validador o interfaz
+
+
+//JWT
+//Es el token a proporcionar para verificar la identidad de un usuario 
+//al momento de utilizar una API
+//Consta de 3 partes: 
+//Header: Como fue construido y que token es
+//Payload: Es la informacion solicitada por el usuario
+//Firma: Consta del header y body encriptado, y tambien de la llave utiliza para desencriptar dicha info
